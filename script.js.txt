@@ -1,0 +1,25 @@
+/* ==========  NEURONIA ∞  BASIC INTERACTION  ========== */
+
+/** Helper to append message blocks */
+function postMsg(text, from = "ai") {
+  const box = document.getElementById("chatArea");
+  const div = document.createElement("div");
+  div.className = `message ${from}`;
+  div.textContent = text;
+  box.appendChild(div);
+  box.scrollTop = box.scrollHeight;
+}
+
+/** Demo – greet user & handle button */
+window.addEventListener("DOMContentLoaded", () => {
+  postMsg("👋  Hello Founder Nahid! Ask me anything…");
+
+  document.getElementById("demoBtn").addEventListener("click", () => {
+    postMsg("Hi Neuronia!", "user");
+
+    // 👉 real app-এ এখানে fetch/axios দিয়ে backend-এ call যাবে
+    setTimeout(() => {
+      postMsg("NEURONIA ➜ I’m alive and ready to build your AI empire! 🚀");
+    }, 700);
+  });
+});
