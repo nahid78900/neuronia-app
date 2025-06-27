@@ -10,3 +10,47 @@
   <p>This is the future of AI — built by Md Nahid Aktar.</p>
 </body>
 </html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>NEURONIA ⚡ | By Md Nahid Aktar</title>
+  <link rel="stylesheet" href="style.css"> <!-- External CSS -->
+  <style>
+    /* Internal CSS fallback */
+    body {
+      font-family: Arial, sans-serif;
+      background: linear-gradient(to right, #f7f8fa, #e3f2fd);
+      margin: 0;
+      padding: 20px;
+      text-align: center;
+    }
+    h1 {
+      color: #1a237e;
+      font-size: 3rem;
+    }
+    p {
+      font-size: 1.2rem;
+      color: #333;
+    }
+    footer {
+      margin-top: 50px;
+      font-size: 0.9rem;
+      color: #888;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Welcome to NEURONIA ⚡</h1>
+  <p>AI is the Future — Built with 💙 by <strong>Md Nahid Aktar</strong></p>
+  <p>এই অ্যাপ তৈরি হয়েছে ভবিষ্যতের জন্য একটি আধুনিক এআই অ্যাসিস্ট্যান্ট হিসেবে।</p>
+
+  <footer>
+    &copy; 2025 Md Nahid Aktar | Neuronia Project
+  </footer>
+
+  <script src="script.js"></script> <!-- Future JS -->
+</body>
+</html>
